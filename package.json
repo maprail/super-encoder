@@ -1,0 +1,23 @@
+{
+  "name": "super-encoder",
+  "version": "1.0.0",
+  "description": "encode decode cipher",
+  "main": "super-encoder.js",
+  "scripts": {
+    "test": "node message-mixer.js 'string to encode decoe' cipher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maprail/super-encoder.git"
+  },
+  "keywords": [
+    "encode",
+    "decode"
+  ],
+  "author": "codecademy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maprail/super-encoder/issues"
+  },
+  "homepage": "https://github.com/maprail/super-encoder#readme"
+}
