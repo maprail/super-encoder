@@ -36,10 +36,10 @@ const handleInput = (userInput) => {
 };
 
 // Run the program.
-process.stdout.write("Enter the message you would like to encrypt...\n> ");
-process.stdin.on("data", handleInput);
+//process.stdout.write("Enter the message you would like to encrypt...\n> ");
+//process.stdin.on("data", handleInput);
 
-module.export = {
+module.exports = {
   encodeMessage,
   decodeMessage,
 }
