@@ -8,7 +8,7 @@ const {
 const randomAmount = 9;
 
 const encodeMessage = (str) => {
-  console.log(': ' + str);
+  //console.log(': ' + str);
 
   return reverseCipher(symbolCipher(caesarCipher(str, randomAmount)));
 };
@@ -22,7 +22,7 @@ const decodeMessage = (str) => {
 
 const handleInput = (userInput) => {
   const str = userInput.toString().trim();
-  console.log(process.argv[2]);
+  //console.log(process.argv[2]);
   let output;
   if (process.argv[2] === "encode") {
     output = encodeMessage(str);
@@ -38,3 +38,8 @@ const handleInput = (userInput) => {
 // Run the program.
 process.stdout.write("Enter the message you would like to encrypt...\n> ");
 process.stdin.on("data", handleInput);
+
+module.export = {
+  encodeMessage,
+  decodeMessage,
+}
